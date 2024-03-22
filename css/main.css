@@ -715,4 +715,29 @@ footer .footer .footer-bottom {
     .services .content .single-service {
         margin-bottom: 20px;
     }
+    .quoteOverlay h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.quoteOverlay {
+    text-align: center;
+    transform: translateY(230%);
+    color: white;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    z-index: 100;
+}
+
+.quoteOverlay h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 2.5rem;
+}
+
+canvas{
+    background: white;
+    /* top: 0;
+    left: 0; */
 }
