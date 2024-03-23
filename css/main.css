@@ -28,7 +28,7 @@ img {
 header {
     width: 100%;
     height: 100vh;
-    background-image: url(../head.jpg);
+    background-image: url(../img/head.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -271,6 +271,7 @@ header .header-content .content p {
     border-radius: 5px;
     padding: 30px;
     transition: .4s all ease-in-out;
+    height: 100%;
 }
 
 .services .content .single-service:hover {
@@ -303,7 +304,7 @@ header .header-content .content p {
 .services .content .single-service p {
     font-size: 1rem;
     color: #f1f1f1;
-    text-align: justify;
+    text-align: center;
 }
 
 .gallery h2 {
@@ -458,7 +459,7 @@ header .header-content .content p {
 
 
 .life-history {
-    background: url(../p1.png);
+    background: url(../img/p1.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -516,7 +517,7 @@ header .header-content .content p {
 
 .quote {   
  padding: 20%;
- background: url(../bin2.jpg);
+ background: url(../img/bin2.jpg);
  background-size: cover;
  background-position: center;
  position: relative;
@@ -540,12 +541,12 @@ header .header-content .content p {
 
 
 .contact {
-    background: url(../moti1.jpg);
+    background: url(../img/moti1.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-  
+    margin-top: 60rem;
 }
 
 .contact::before {
@@ -687,6 +688,37 @@ footer .footer .footer-bottom {
 }
 
 
+#canvasContainer {
+    position: relative;
+}
+
+#matrixRain {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    z-index: 2;
+    text-align: center;
+}
+
+#overlay h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#overlay div {
+    color: white;
+}
+
+
 @media (max-width: 992px) {
     .navbar-collapse {
         background-color: rgba(0, 0, 0, .5);
@@ -714,4 +746,42 @@ footer .footer .footer-bottom {
     .services .content .single-service {
         margin-bottom: 20px;
     }
+    .contact {
+        /* margin-top: 60rem; */
+        margin-top: 55rem;
+    }
+    #overlay {
+        /* transform: translate(-50%, 25%); */
+        transform: translate(-50%, 11%);
+    }
+    #overlay h2 {
+        font-size: 1.5rem;
+    }
+    /* .quoteOverlay h2 {
+        font-size: 1.5rem;
+    } */
 }
+
+/* .quoteOverlay {
+    text-align: center;
+    transform: translateY(230%);
+    color: white;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    z-index: 100;
+}
+
+.quoteOverlay h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 2.5rem;
+}
+
+canvas{
+    background: white;
+    top: 0;
+    left: 0; 
+} */
+
+
