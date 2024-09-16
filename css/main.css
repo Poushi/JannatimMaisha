@@ -546,7 +546,7 @@ header .header-content .content p {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    margin-top: 60rem;
+    /* margin-top: 60rem; */
 }
 
 .contact::before {
