@@ -812,7 +812,7 @@ h5.undergraduate-thesis-title {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    margin-top: 60rem;
+    /* margin-top: 60rem; */
 }
 
 .contact::before {
